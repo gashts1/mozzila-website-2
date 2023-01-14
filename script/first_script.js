@@ -34,12 +34,12 @@ var foxImage = document.querySelector('img');
 foxImage.onclick = sayOuch;
 
 var buttonToggle = document.getElementById('buttonToggle')
-var buttonShow= document.getElementById('buttonShow')
-var buttonHide= document.getElementById('buttonHide')
+//var buttonShow= document.getElementById('buttonShow')
+//var buttonHide= document.getElementById('buttonHide')
 
-buttonShow.onclick=showFox;
+buttonToggle.onclick=toggleFox;
 
-buttonHide.onclick = hideFox;
+//buttonHide.onclick = hideFox;
 
 
 // use css ID to identify button for color change
