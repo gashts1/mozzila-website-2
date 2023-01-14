@@ -27,6 +27,9 @@ function changeColor() {
   var listTwo = document.getElementById('listTwo');
   listTwo.style.color = 'blue';
 }
+
+
+
 // Use a CSS selector to identify an element
 var foxImage = document.querySelector('img');
 
@@ -45,5 +48,5 @@ buttonToggle.onclick=toggleFox;
 // use css ID to identify button for color change
 var buttonColor = document.getElementById('buttonColor')
 
-// assign function show fox when button two clicked
+// Chaning text color 
 buttonColor.onclick = changeColor;
